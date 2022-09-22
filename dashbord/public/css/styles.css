@@ -11757,3 +11757,20 @@ body {
 .ajour{
   color: green;
 }
+.container-connexion{
+  width: 50%;
+  margin: auto;
+  background-color: bisque;
+  padding: 30px;
+  margin-top: 10em;
+
+}
+.container-form{
+  width: 40%;
+  background-color: white;
+  padding: 10px;
+  margin: auto;
+}
+.input{
+  margin: 20px;
+}
