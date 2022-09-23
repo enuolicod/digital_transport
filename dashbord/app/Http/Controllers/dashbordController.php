@@ -232,7 +232,7 @@ class dashbordController extends Controller{
                 $request->session()->put('loginId',$userconnexion->id );
                 return redirect('/dashbord');
            } else {
-            return back()->with('fail','Mot de passe incorrect');
+            return back()->with('fail','Mot de passe ou email incorrecte incorrect');
            }
 
         } 
